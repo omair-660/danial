@@ -1,3 +1,6 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
 .bg-img{
 background-repeat: no-repeat;
 background-size: cover;
@@ -139,7 +142,7 @@ button{
     font-weight: 900;
     font-size: 40px;
     position: relative;
-    z-index: 2;
+    z-index: 0;
 }
 .aftr::after{
     position: absolute;
@@ -315,4 +318,19 @@ footer p{
 }
 .up.open{
     opacity: 1;
+}
+.navbar-toggler span {
+    width: 30px;
+    height: 3px;
+    transition: 0.5s;
+}
+.navbar-toggler .span {
+    width: 15px;
+}
+#span-2.open {
+    width: 15px;
+    margin: 0 auto;
+}
+#span-3.open {
+    width: 100%;
 }
