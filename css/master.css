@@ -254,6 +254,10 @@ button{
     .team .box{
         width: 100%;
     }
+    .clients .carousel-item img {
+        width: 101px;
+        height: 101px;
+    }
 }
 .team i{
     width: 40px;
