@@ -86,3 +86,44 @@ function startCountingAnimation() {
   }
 
   document.addEventListener('DOMContentLoaded', startCountingAnimation);
+  let span2 = document.getElementById("span-2");
+  let span3 = document.getElementById("span-3");
+  let menu = document.getElementsByClassName("navbar-toggler")[0];
+
+  menu.onclick = function(){
+    span2.classList.toggle("open");
+    span3.classList.toggle("open");
+  }
+
+  let closeBtn = document.getElementById("close");
+  let modal = document.getElementById("model");
+  let port1 = document.getElementById("port1");
+  let port2 = document.getElementById("port2");
+  let port3 = document.getElementById("port3");
+  let port4 = document.getElementById("port4");
+  let port5 = document.getElementById("port5");
+  let port6 = document.getElementById("port6");
+  
+  closeBtn.addEventListener("click", function() {
+    modal.classList.add("none");
+  });
+  
+  port1.addEventListener("click", function() {
+    modal.classList.remove("none");
+  });
+  port2.addEventListener("click", function() {
+    modal.classList.remove("none");
+  });
+  port3.addEventListener("click", function() {
+    modal.classList.remove("none");
+  });
+  port4.addEventListener("click", function() {
+    modal.classList.remove("none");
+  });
+  port5.addEventListener("click", function() {
+    modal.classList.remove("none");
+  });
+  port6.addEventListener("click", function() {
+    modal.classList.remove("none");
+  });
+  

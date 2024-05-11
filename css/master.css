@@ -247,6 +247,9 @@ button{
 .team .box{
     width: 293.33px;
 }
+.team .image{
+    overflow: hidden;
+}
 @media (max-width:767px) {
     .team .box{
         width: 100%;
@@ -269,12 +272,19 @@ button{
 }
 .team .layer {
     opacity: 0;
+    z-index: 1;
     transition: 0.5s;
     transform: scale(0.5) rotateY(180deg);
 }
 .team .box:hover .layer{
     opacity: 1;
     transform: scale(1) rotateY(0);
+}
+.team img{
+    transition: 0.5s;
+}
+.team .image:hover img{
+    transform: scale(1.1);
 }
 .carousel-indicators{
     z-index: 0;
@@ -333,4 +343,16 @@ footer p{
 }
 #span-3.open {
     width: 100%;
+}
+.carousel-item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+}
+#model.none{
+    display: none;
+}
+#model.block{
+    display: block;
 }
