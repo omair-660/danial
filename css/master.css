@@ -250,6 +250,9 @@ button{
 .team .image{
     overflow: hidden;
 }
+#model{
+    width: 75%;
+}
 @media (max-width:767px) {
     .team .box{
         width: 100%;
@@ -258,9 +261,12 @@ button{
         width: 101px;
         height: 101px;
     }
-   .typ{
-    font-size: 1.5rem;
-   }
+    .typ{
+        font-size: 1.5rem;
+    }
+    #model{
+        width: 100%;
+    }
 }
 .team i{
     width: 40px;
