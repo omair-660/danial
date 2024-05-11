@@ -103,6 +103,12 @@ function startCountingAnimation() {
   let port4 = document.getElementById("port4");
   let port5 = document.getElementById("port5");
   let port6 = document.getElementById("port6");
+  let port7 = document.getElementById("port7");
+  let port8 = document.getElementById("port8");
+  let port9 = document.getElementById("port9");
+  let port10 = document.getElementById("port10");
+  let port11 = document.getElementById("port11");
+  let port12 = document.getElementById("port12");
   
   closeBtn.addEventListener("click", function() {
     modal.classList.add("none");
@@ -124,6 +130,24 @@ function startCountingAnimation() {
     modal.classList.remove("none");
   });
   port6.addEventListener("click", function() {
+    modal.classList.remove("none");
+  });
+  port7.addEventListener("click", function() {
+    modal.classList.remove("none");
+  });
+  port8.addEventListener("click", function() {
+    modal.classList.remove("none");
+  });
+  port9.addEventListener("click", function() {
+    modal.classList.remove("none");
+  });
+  port10.addEventListener("click", function() {
+    modal.classList.remove("none");
+  });
+  port11.addEventListener("click", function() {
+    modal.classList.remove("none");
+  });
+  port12.addEventListener("click", function() {
     modal.classList.remove("none");
   });
   
