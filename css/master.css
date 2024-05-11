@@ -258,6 +258,9 @@ button{
         width: 101px;
         height: 101px;
     }
+   .typ{
+    font-size: 1.5rem;
+   }
 }
 .team i{
     width: 40px;
