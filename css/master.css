@@ -275,7 +275,7 @@ div#model::after {
     height: 100vh;
     margin-left: auto;
     left: 0;
-    top: -19%;
+    top: 0%;
     background: #00000091;
     bottom: 0;
     right: -100%;
@@ -297,7 +297,7 @@ div#model::after {
         width: 100%;
     }
     div#model::after{
-        top: -33%;
+        top: 0;
     }
 }
 .team i{
