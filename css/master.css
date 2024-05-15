@@ -158,6 +158,18 @@ button{
     background-repeat: repeat;
     z-index: -1;
 }
+.about::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    z-index: -1;
+    top: 0;
+    background-image: url("../image/dots.png");
+    background-repeat: repeat;
+    width: 100%;
+    height: 100%;
+}
+
 .bg-gray{
     background: #f7f7f7;
 }
