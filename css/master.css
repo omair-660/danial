@@ -273,12 +273,9 @@ div#model::after {
     position: absolute;
     width: 233%;
     height: 100vh;
-    margin-left: auto;
     left: 0;
     top: 0%;
     background: #00000091;
-    bottom: 0;
-    right: -100%;
     z-index: -1;
     transition: 0.5s;
 }
